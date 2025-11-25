@@ -1,4 +1,4 @@
-{% set version = "8.0.4" %}
+{% set version = "9.0.0" %}
 
 package:
   name: framework7-cli
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://registry.npmjs.org/framework7-cli/-/framework7-cli-{{ version }}.tgz
-  sha256: 93819023e9bbac4da5d4348c766d70d18b759692d0c3dcfe19fbc9283aadeba7
+  sha256: 28743bd2f9e949f8f00287f7d796ed99575f19dccaa7d24fd76dfd698c34297f
 
 build:
   number: 0
-  skip: True  # [win or ppc64le]
+  skip: true  # [win or ppc64le]
 
 requirements:
   build:
