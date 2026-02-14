@@ -21,7 +21,7 @@ glib:
 libvips:
 - '8'
 nodejs:
-- '20'
+- '24'
 python_min:
 - '3.10'
 target_platform:
